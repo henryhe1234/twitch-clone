@@ -30,6 +30,7 @@ class StreamCreate extends React.Component {
   }
 
   render() {
+    //the handleSubmit function will pass form Values to the this.onSubmit function
     return(
       <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error" >
         <Field name="title" component={this.renderInput} label="Enter Title" />
