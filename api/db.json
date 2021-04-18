@@ -24,6 +24,12 @@
       "title": "test streams1",
       "description": "Here is an test streams1",
       "id": 5
+    },
+    {
+      "title": "I create this stream",
+      "description": "This is made by me",
+      "userId": "116911134817973146888",
+      "id": 6
     }
   ]
 }
