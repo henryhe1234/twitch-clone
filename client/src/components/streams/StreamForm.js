@@ -14,6 +14,7 @@ class StreamForm extends React.Component {
   }
   renderInput = (formProps) =>{//the Field component from redux-form will pass formPorps to the component function and I name it formPorps
     const className = `field ${formProps.meta.error && formProps.meta.touched ? 'error' : ''}`;
+    
     return (
       <div className={className}>
         <label>{formProps.label}
@@ -30,7 +31,7 @@ class StreamForm extends React.Component {
 
   render() {
     //the handleSubmit function will pass form Values to the this.onSubmit function
-    return(
+    return(//the label is not from redux-form
       <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error" >
         <Field name="title" component={this.renderInput} label="Enter Title" />
         <Field name="description" component={this.renderInput} label="Enter Description" />
