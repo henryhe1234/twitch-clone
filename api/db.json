@@ -30,6 +30,12 @@
       "description": "This is made by me",
       "userId": "116911134817973146888",
       "id": 6
+    },
+    {
+      "title": "Stream after refactor",
+      "description": "this is a refactor stream",
+      "userId": "116911134817973146888",
+      "id": 7
     }
   ]
 }
