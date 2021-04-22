@@ -1,10 +1,29 @@
 {
   "streams": [
     {
-      "title": "adfsdsdfsdf",
-      "description": "sdfasdasdas",
-      "userId": "116911134817973146888",
+      "title": "this is stream",
+      "description": "This is great",
       "id": 1
+    },
+    {
+      "title": "this is stream",
+      "description": "This is great",
+      "id": 2
+    },
+    {
+      "title": "this is stream",
+      "description": "This is great",
+      "id": 3
+    },
+    {
+      "title": "test streams",
+      "description": "Here is an test streams",
+      "id": 4
+    },
+    {
+      "title": "test streams1",
+      "description": "Here is an test streams1",
+      "id": 5
     }
   ]
 }
