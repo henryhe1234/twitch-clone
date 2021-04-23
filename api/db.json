@@ -1,29 +1,10 @@
 {
   "streams": [
     {
-      "title": "this is stream",
-      "description": "This is great",
+      "title": "Stream NO1",
+      "description": "ONLY user who sign in can edit or delete his own stream",
+      "userId": "116911134817973146888",
       "id": 1
-    },
-    {
-      "title": "this is stream",
-      "description": "This is great",
-      "id": 2
-    },
-    {
-      "title": "this is stream",
-      "description": "This is great",
-      "id": 3
-    },
-    {
-      "title": "test streams",
-      "description": "Here is an test streams",
-      "id": 4
-    },
-    {
-      "title": "test streams1",
-      "description": "Here is an test streams1",
-      "id": 5
     }
   ]
 }
